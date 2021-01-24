@@ -4,6 +4,7 @@ session_start();
 	
 	//Import a file
 	require_once("connection.php");
+//blah blah
 	
 	$sql = "DELETE from trip WHERE trip_no='$trip_no'";
 	$run = mysqli_query($con,$sql)or die(header('location:Trip.php?msg=Could not deleted'));
