@@ -10,6 +10,7 @@
 
 	//check if the query is run successfully
 	if(!$run)
+
 	{
 		die(mysqli_error($con)); //Error if sql could not be run
 	}
